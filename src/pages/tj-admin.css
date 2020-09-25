@@ -1,0 +1,51 @@
+@charset "utf-8";
+.btn,
+.dropdown-menu,
+.card,
+.pagination,
+.page-item:first-child .page-link,
+.page-item:last-child .page-link,
+.form-control {
+    border-radius: 0;
+}
+
+div.dataTables_wrapper div.dataTables_paginate ul.pagination {
+    justify-content: flex-start;
+}
+
+.page-item.active .page-link {
+    z-index: 3;
+    color: #fff;
+    background-color: #858796;
+    border-color: #858796;
+}
+
+.search-form {
+    text-align: center;
+}
+
+.search-form h6,
+.search-form th {
+    text-align: left;
+}
+
+.search-form th {
+    font-size: .8rem;
+    vertical-align: middle;
+}
+
+.search-form .btn-search {
+    margin-left: -8.5%;
+}
+
+.btn-icon-calendar {
+    background: url('../img/icon_calendar.png') no-repeat 50% 50%;
+    display: block;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+
+.btn-icon-calendar:hover {
+    background: url('../img/icon_calendar_over.png') no-repeat 50% 50%;
+}
