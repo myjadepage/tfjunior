@@ -5,7 +5,8 @@
 .pagination,
 .page-item:first-child .page-link,
 .page-item:last-child .page-link,
-.form-control {
+.form-control,
+.modal-content {
     border-radius: 0;
 }
 
@@ -25,7 +26,8 @@ div.dataTables_wrapper div.dataTables_paginate ul.pagination {
 }
 
 .search-form h6,
-.search-form th {
+.search-form th,
+.search-form td {
     text-align: left;
 }
 
